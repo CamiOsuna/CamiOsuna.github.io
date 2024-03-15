@@ -1,0 +1,46 @@
+.parrafo{
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+    color: rgb(224, 71, 173);
+    font-size: large;
+    font-weight: 500;
+}
+
+div{
+    border: 2px solid mediumaquamarine;
+    color: rgb(59, 172, 224);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(131, 49, 224);
+    font-size: x-large;
+}
+
+span ul li{
+    color: gainsboro;
+    font-size: large;
+    font-weight: 300;
+}
+
+#Name{
+    background-color: rgb(187, 250, 116);
+}
+
+#boton{
+    background-color:darkturquoise;
+    border: none;
+    font-size: medium;
+    width: 40px;
+    height: 50px;
+    color:rgb(6, 49, 6);
+}
+.texto{
+    color:rgb(240, 128, 212);
+}
+.link{
+    color: darkslateblue;
+}
+
+a:hover{
+    color:aquamarine ;
+}
