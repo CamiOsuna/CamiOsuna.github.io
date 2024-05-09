@@ -2,4 +2,4 @@
 
 [Pizza hut](https://www.pizzahut.com.mx/home)
 
-![Imagen de pizza hut](https://github.com/CamiOsuna/Pizza-Hut/blob/20c0098199499a2b4c9e8da51900fb443836cb26/pizz.jpg)
+![Imagen de pizza hut](https://github.com/CamiOsuna/CamiOsuna.github.io/blob/7994b8026c28b8346eb96a9f9a90d89a10fcc377/Captura%20de%20pantalla%20(60).png)
