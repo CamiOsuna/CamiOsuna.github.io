@@ -1,0 +1,21 @@
+.imgfonfo{
+    background-image: url(img/imgPizza.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+}
+body{
+    text-align: center;
+}
+.foter3{
+    background-color: rgb(44, 39, 39);
+    color: white;
+}
+span{
+    color: white;
+}
+small{
+    color: white;
+}
+.span2{
+    color: black;
+}
