@@ -33,19 +33,19 @@
 
                 <h3 style="color:black; background-color:rgb(187, 94, 233);">SELECT profesor.nombre, asignatura.nombre FROM profesor INNER JOIN impartir ON profesor.idProfesor = impartir.idProfesor INNER JOIN asignatura ON impartir.idAsignatura=asignatura.idAsignatura</h3>
                 <p style="background-color: hotpink;">Obtener el listado de alumnos (todos los campos) que están inscritos a la asignatura de programación </p>
-                <img  src="" alt="" class="img-fluid" style="background-color:palevioletred">
+                <img  src="consulta6.png" alt="" class="img-fluid" style="background-color:palevioletred">
 
                 <h3 style="color:black; background-color:rgb(187, 94, 233);">SELECT profesor.nombre, impartir.idAsignatura FROM profesor INNER JOIN impartir</h3>
                 <p style="background-color: hotpink;">Mostrar la asignatura que tiene más alumnos en total</p>
-                <img  src="" alt="" class="img-fluid" style="background-color:palevioletred">
+                <img  src="consulta7.png" alt="" class="img-fluid" style="background-color:palevioletred">
                     
-                <h3 style="color:black; background-color:rgb(187, 94, 233);">SELECT alumno.nombre,profesor.nombre FROM alumno INNER JOIN profesor INNER JOIN impartir ON impartir.idProfesor="PR048" INNER JOIN matricula on impartir.idAsignatura=matricula.idAsignatura;</h3>
+                <h3 style="color:black; background-color:rgb(187, 94, 233);">zzz INNER JOIN profesor INNER JOIN impartir ON impartir.idProfesor="PR048" INNER JOIN matricula on impartir.idAsignatura=matricula.idAsignatura;</h3>
                 <p style="background-color: hotpink;">Mostrar a los alumnos que les da clase el profesor jose manuel</p>
-                <img  src="" alt="" class="img-fluid" style="background-color:palevioletred">
+                <img  src="consulta8.png" alt="" class="img-fluid" style="background-color:palevioletred">
 
                 <h3 style="color:black; background-color:rgb(187, 94, 233);">SELECT curso.nombreDescriptivo AS "curso", asignatura.nombre AS "asignatura", profesor.nombre AS "profesor" FROM curso INNER JOIN asignatura ON asignatura.curso=curso.idCurso INNER JOIN profesor ON asignatura.coordinador=profesor.idProfesor;</h3>
                 <p style="background-color: hotpink;">Mostrar los cursos, con sus asignaturas y que maestros las imparten.</p>
-                <img  src="" alt="" class="img-fluid" style="background-color:palevioletred">
+                <img  src="consulta9.png" alt="" class="img-fluid" style="background-color:palevioletred">
                     
                 <h3 style="color:black; background-color:rgb(187, 94, 233);">SELECT alumno.nombre, asignatura.nombre, profesor.nombre, curso.nombreDescriptivo
                     FROM alumno
@@ -56,7 +56,7 @@
                     INNER JOIN curso ON curso.idCurso=asignatura.curso;
             </h3>
                 <p style="background-color: hotpink;">Mostrar todos los alumnos con asignatura, profesor y curso</p>
-                <img  src="" alt="" class="img-fluid" style="background-color:palevioletred">   
+                <img  src="consulta10.png" alt="" class="img-fluid" style="background-color:palevioletred">   
     </h3>
 
 
